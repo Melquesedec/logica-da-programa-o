@@ -122,10 +122,10 @@ if(diaSemana == 0){
 // }
 
 let contador = 0;
-let contadorN = document.getElementById('contador');
+let contadorN = document.getElementById('contadorN');
 
 while(contador < 300){
         contador++;
-        contador.innerHTML = ('contador');
+        contadorN.innerHTML = ('300');
     }
     
