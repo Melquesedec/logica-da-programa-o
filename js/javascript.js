@@ -31,3 +31,101 @@ function sair(){
     caixa.style.color = 'black';
     // caixa.style.fontWeight = 'black';
 }
+
+// Pegar a data atual do computador
+let agora = new Date();
+// Pegar o dia da semana em valores númericos
+let diaSemana = agora.getDay();
+// Pegar o ID da div
+let data = document.getElementById('data');
+
+// switch(diaSemana){
+//     case 0:
+//         data.innerHTML = ('Domingo');
+//         data.style.background = 'black';
+//     break;
+
+//     case 1:
+//         data.innerHTML = ('Segunda-feira');
+//         data.style.background = 'gray';
+//     break;                                                      
+
+//     case 2:
+//         data.innerHTML = ('Terça-Feira');
+//         data.style.background = 'orange';
+//     break;
+
+//     case 3:
+//         data.innerHTML = ('Quarta-Feira');
+//         data.style.background = 'blue';
+//     break;
+
+//     case 4:
+//         data.innerHTML = ('Quinta-Feira');
+//         data.style.background = 'yellow';
+//     break;
+
+//     case 5:
+//         data.innerHTML = ('Sexta-Feira');
+//         data.style.background = 'pink';
+//     break;
+
+//     case 6:
+//         data.innerHTML = ('Sábado');
+//         data.style.background = 'red';
+//         // console.log('Dia inválido');
+//     break;
+
+//     default:
+//         console.log('Dia inválido');
+//     break;
+// } 
+
+if(diaSemana == 0){
+    data.innerHTML = ('Domingo');
+    data.style.background = ('Black')
+} else if(diaSemana == 1){
+    data.innerHTML = ('Segunda-Feira');
+    data.style.background = ('blue');
+
+} else if(diaSemana == 2){
+    data.innerHTML = ('Terça-Feira');
+    data.style.background = ('gray');
+
+} else if(diaSemana == 3){
+    data.innerHTML = ('Quarta-Feira');
+    data.style.background = ('yellow');
+
+} else if(diaSemana == 4){
+    data.innerHTML = ('Quinta-Feira');
+    data.style.background = ('red');
+
+} else if(diaSemana == 5){
+    data.innerHTML = ('Sexta-Feira');
+    data.style.background = ('pink');
+
+} else if(diaSemana == 6){
+    data.innerHTML = ('Sábado');
+    data.style.background = ('orange');
+
+} else {
+    data.innerHTML = ('Data inválida');
+    data.style.background = ('white');
+    data.style.color = ('black');
+}
+
+// let contador = 0;
+
+// while(contador < 300){
+//     contador++;
+//     console.log(contador);
+// }
+
+let contador = 0;
+let contadorN = document.getElementById('contador');
+
+while(contador < 300){
+        contador++;
+        contador.innerHTML = ('contador');
+    }
+    
