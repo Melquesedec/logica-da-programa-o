@@ -95,7 +95,7 @@ if(diaSemana == 0){
 } else if(diaSemana == 3){
     data.innerHTML = ('Quarta-Feira');
     data.style.background = ('yellow');
-
+    data.style.color = ('black');
 } else if(diaSemana == 4){
     data.innerHTML = ('Quinta-Feira');
     data.style.background = ('red');
